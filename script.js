@@ -11,3 +11,9 @@ const numero = 0.21
 let risultato = numero * chilometri
 
 console.log(risultato)
+
+let sconto = risultato / 20%
+
+if( eta < 18 ){
+    console.log("sconto")
+}
