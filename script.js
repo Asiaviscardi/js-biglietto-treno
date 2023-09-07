@@ -12,8 +12,14 @@ let risultato = numero * chilometri
 
 console.log(risultato)
 
-let sconto = risultato / 20%
+let sconto20 = risultato * 20 / 100 
+
+let sconto40 = risultato * 40 / 100
 
 if( eta < 18 ){
-    console.log("sconto")
+    console.log(risultato - sconto20)
+}else if( eta > 65){
+    console.log(risultato - sconto40)
+}else{
+    console.log(risultato)
 }
